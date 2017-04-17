@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InBytesBot</RootNamespace>
+    <RootNamespace>BOTSII</RootNamespace>
     <AssemblyName>Bot Application1</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
@@ -142,8 +142,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FootballData\IPGLicenciaturas.csproj">
-      <Project>{8e071a42-0d8f-4b98-98dd-e208c7102217}</Project>
+    <ProjectReference Include="..\IPGLicenciaturas\IPGLicenciaturas.csproj">
+      <Project>{8E071A42-0D8F-4B98-98DD-E208C7102217}</Project>
       <Name>IPGLicenciaturas</Name>
     </ProjectReference>
   </ItemGroup>

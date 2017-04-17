@@ -7,8 +7,8 @@
     <ProjectGuid>{8E071A42-0D8F-4B98-98DD-E208C7102217}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FootballData</RootNamespace>
-    <AssemblyName>FootballData</AssemblyName>
+    <RootNamespace>IPGLicenciaturas</RootNamespace>
+    <AssemblyName>IPGLicenciaturas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
