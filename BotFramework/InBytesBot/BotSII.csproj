@@ -133,6 +133,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\BotFrameworks - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\BotFrameworks - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\InBytesBot20160823081550 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -146,6 +148,9 @@
       <Project>{8E071A42-0D8F-4B98-98DD-E208C7102217}</Project>
       <Name>IPGLicenciaturas</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
