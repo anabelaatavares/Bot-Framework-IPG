@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace InBytesBot
 {
-    [LuisModel("4ec615fd-e326-47b9-8096-59b0e4fb20e1", "8ea59e25a8c14a9e9e3e952afeece069")]
+    [LuisModel("7ffcb731-884b-410d-bc69-6e10a3d88eeb", "c411f31f84f54cfd9a8a56f3c4e3981e")]
     [Serializable]
     public class SimpleLUISDialog : LuisDialog<object>
     {
@@ -30,7 +30,7 @@ namespace InBytesBot
             ThumbnailCard tc = new ThumbnailCard()
             {
                 Title = "Precisas de ajuda?!",
-                Subtitle = "Acessa ao site para mais infromações",
+                Subtitle = "Acessa ao site para mais informações",
                 Images = images,
                 Tap = ca
             };
@@ -51,7 +51,7 @@ namespace InBytesBot
         [LuisIntent("cursoGet")]
         public async Task Getcurso(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"No IPG exite: { cursos.GetCursos() } .");
+            await context.PostAsync($"No IPG existe: { cursos.GetCursos() } .");
             context.Wait(MessageReceived);
         }
 

@@ -133,9 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Properties\PublishProfiles\BotFrameworks - Web Deploy %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\BotFrameworks - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\InBytesBot20160823081550 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\BotSII - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -152,6 +150,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -166,7 +165,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3979</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

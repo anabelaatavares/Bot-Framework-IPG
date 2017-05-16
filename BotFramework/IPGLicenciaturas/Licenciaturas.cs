@@ -19,7 +19,7 @@ namespace IPGLicenciaturas
         private void InitializeCursos()
         {
             Cursos = new Dictionary<string, int>();
-            Cursos.Add("Animação Sociocultural", 1);
+            Cursos.Add("Engenharia Informática", 1);
             Cursos.Add("Comunicação e Relações Públicas", 2);
             Cursos.Add("Comunicação Multimédia", 3);
             Cursos.Add("Contabilidade", 4);
@@ -29,7 +29,7 @@ namespace IPGLicenciaturas
             Cursos.Add("Energia e Ambiente", 8);
             Cursos.Add("Enfermagem", 9);
             Cursos.Add("Engenharia Civil", 10);
-            Cursos.Add("Engenharia Informática", 11);
+            Cursos.Add("Animação Sociocultural", 11);
             Cursos.Add("Engenharia Topográfica", 12);
             Cursos.Add("Gestão", 13);
             Cursos.Add("Gestão de Recursos Humanos", 14);
@@ -37,6 +37,7 @@ namespace IPGLicenciaturas
             Cursos.Add("Marketing", 16);
             Cursos.Add("Restauração e Catering", 17);
             Cursos.Add("Turismo e Lazer", 18);
+            Cursos.Add("Fármacia", 19);
         }
 
         public string GetCursos()
@@ -89,7 +90,7 @@ namespace IPGLicenciaturas
         {
             var sorted = Cursos.OrderBy(p => p.Value);
             List<string> rtns = new List<string>();
-            rtns.Add(sorted.ElementAt(10).Key);
+            rtns.Add(sorted.ElementAt(0).Key);
             rtns.Add(sorted.ElementAt(12).Key);
             rtns.Add(sorted.ElementAt(5).Key);
 
