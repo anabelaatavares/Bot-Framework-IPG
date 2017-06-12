@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace InBytesBot
-{
+{//appID, apiKey
     [LuisModel("7ffcb731-884b-410d-bc69-6e10a3d88eeb", "c411f31f84f54cfd9a8a56f3c4e3981e")]
     [Serializable]
     public class SimpleLUISDialog : LuisDialog<object>

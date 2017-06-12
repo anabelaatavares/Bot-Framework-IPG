@@ -58,27 +58,27 @@ namespace IPGLicenciaturas
             return Cursos.Count;
         }
 
-        public void Reset()
-        {
-            try
-            {
-                InitializeCursos();
-            }
-            catch (Exception)
-            {
-                throw new CursoDataException();
-            }
-        }
+        //public void Reset()
+        //{
+        //    try
+        //    {
+        //        InitializeCursos();
+        //    }
+        //    catch (Exception)
+        //    {
+        //        throw new CursoDataException();
+        //    }
+        //}
 
-        public bool DoesCursoExist(string name)
-        {
-            foreach (var key in Cursos.Keys)
-            {
-                if (key.ToLower().Equals(name.ToLower()))
-                    return true;
-            }
-            return false;
-        }
+        //public bool DoesCursoExist(string name)
+        //{
+        //    foreach (var key in Cursos.Keys)
+        //    {
+        //        if (key.ToLower().Equals(name.ToLower()))
+        //            return true;
+        //    }
+        //    return false;
+        //}
 
         public string GetHighestRatedCurso()
         {
